@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>Markdown 测试文件</title>
+    <link href="/2024/07/26/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
+    <url>/2024/07/26/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
+    
+    <content type="html"><![CDATA[<h1 id="欢迎来到我的第一个-Markdown-文档"><a href="#欢迎来到我的第一个-Markdown-文档" class="headerlink" title="欢迎来到我的第一个 Markdown 文档"></a>欢迎来到我的第一个 Markdown 文档</h1><p>这是一个使用 Markdown 格式编写的文档示例。Markdown 是一种轻量级的标记语言，用于编写易于阅读和编写的纯文本格式文档。</p><h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><ul><li><a href="#%E7%AE%80%E4%BB%8B">简介</a></li><li><a href="#%E6%A0%87%E9%A2%98">标题</a></li><li><a href="#%E6%AE%B5%E8%90%BD">段落</a></li><li><a href="#%E9%93%BE%E6%8E%A5">链接</a></li><li><a href="#%E5%9B%BE%E7%89%87">图片</a></li><li><a href="#%E5%88%97%E8%A1%A8">列表</a></li><li><a href="#%E4%BB%A3%E7%A0%81%E5%9D%97">代码块</a></li><li><a href="#%E8%A1%A8%E6%A0%BC">表格</a></li><li><a href="#%E5%BC%95%E7%94%A8">引用</a></li><li><a href="#%E4%BB%BB%E5%8A%A1%E5%88%97%E8%A1%A8">任务列表</a></li><li><a href="#%E5%88%86%E5%89%B2%E7%BA%BF">分割线</a></li></ul><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>Markdown 的语法非常简单直观，易于学习和使用。下面是一些常用的 Markdown 语法元素。</p><h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><p>使用 <code>#</code> 符号来定义标题，<code>#</code> 的数量表示标题的级别。</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs markdown"><span class="hljs-section"># 一级标题</span><br><span class="hljs-section">## 二级标题</span><br><span class="hljs-section">### 三级标题</span><br></code></pre></td></tr></table></figure><h2 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h2><p>段落由一行或多行文本组成，每段之间留一个空行。</p><p>这是第一段的内容。<br>这是第二段的内容。</p><h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><p>链接可以这样创建：<code>[链接文字](https://example.com)</code>。</p><p><a href="https://bu-home.pages.dev/">访问我的网站</a></p><h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><p>插入图片也很简单：<code>![替代文字](图片URL)</code>。</p><p><img src="https://via.placeholder.com/150" alt="这是一个示例图片"></p><h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><h3 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h3><ol><li>第一项</li><li>第二项</li><li>第三项</li></ol><h3 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h3><ul><li>第一项</li><li>第二项</li><li>第三项</li></ul><h2 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h2><p>对于代码块，可以使用三个反引号（&#96;&#96;&#96;）包围起来：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">def</span> <span class="hljs-title function_">hello_world</span>():<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;Hello, world!&quot;</span>)<br></code></pre></td></tr></table></figure><p>或者使用行内样式：</p><p><code>print(&quot;Hello, world!&quot;)</code></p><h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><table><thead><tr><th>列1</th><th>列2</th><th>列3</th></tr></thead><tbody><tr><td>行1数据1</td><td>行1数据2</td><td>行1数据3</td></tr><tr><td>行2数据1</td><td>行2数据2</td><td>行2数据3</td></tr></tbody></table><h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><blockquote><p>这是一个引用块。</p></blockquote><h2 id="任务列表"><a href="#任务列表" class="headerlink" title="任务列表"></a>任务列表</h2><ul><li><input disabled="" type="checkbox"> 待办事项 1</li><li><input checked="" disabled="" type="checkbox"> 已完成事项 2</li><li><input disabled="" type="checkbox"> 待办事项 3</li></ul><h2 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h2><p>要添加一条分割线，可以在一行中输入三个星号（***）或减号（—）。</p><hr><p>希望这个示例对你有所帮助！你可以在此基础上扩展更多功能和细节。</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/2024/07/26/hello-world/"/>
+    <url>/2024/07/26/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>
